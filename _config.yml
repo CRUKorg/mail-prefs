@@ -1,10 +1,7 @@
 # Site settings
 title: Cancer Research UK - Mail preferences
 email: chris.platts@cancer.org.uk
-description: >
-	Cancer Research UK mail preferences - example pages.
-baseurl: ""
-url: ""
+description: Cancer Research UK mail preferences - example pages.
 twitter_username: jekyllrb
 github_username:  crukorg
 
