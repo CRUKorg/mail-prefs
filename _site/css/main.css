@@ -67,7 +67,8 @@ ul {
     font-weight: bold;
     font-size: 1.2em;
     padding: 5px 15px;
-    border-radius: 5px; }
+    border-radius: 5px;
+    text-transform: uppercase; }
     .submit-button input[type="submit"]:hover, .submit-button input[type="submit"]:focus {
       opacity: 0.8; }
 
