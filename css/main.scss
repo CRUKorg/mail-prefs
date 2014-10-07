@@ -43,19 +43,15 @@ footer {
   margin: 0 auto;
 }
 
-/**
- * Speocfic style for mail preferences
- */
 fieldset {
   padding: 0;
-  margin: 0 -26px;
+  margin: 0;
   border: none;
 }
 
 legend {
   font-weight: 700;
   font-size: 1.2em;
-  margin-left: 26px;
 }
 
 ul {
@@ -99,35 +95,10 @@ ul {
   }
 }
 
-.prefs_with-images {
-
-  li {
-    width: 200px;
-    height: 160px;
-    float: left;
-    margin: 0.5em 26px 1.0em;
-  }
-
-  .prefs-image {
-    padding-bottom: 0.5em;
-  }
-
-  .prefs-info {
-    width: 150px;
-    float: left;
-    font-weight: bold;
-
-    small {
-      font-weight: 500;
-      font-size: 0.929em;
-    }
-  }
-}
-
 .fancy-checkbox {
   float: right;
-  width: 42px;
-  height: 28px;
+  width: 36px;
+  height: 36px;
   background: #ddd;
 
   -webkit-border-radius: 50px;
@@ -139,14 +110,14 @@ ul {
   label {
     cursor: pointer;
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 26px;
+    height: 26px;
 
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
-    left: 4px;
-    top: 4px;
+    left: 5px;
+    top: 5px;
 
     -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.3), 0px 1px 0px rgba(255,255,255,0.7);
     -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.3), 0px 1px 0px rgba(255,255,255,0.7);
@@ -161,12 +132,12 @@ ul {
     opacity: 0;
     content: '';
     position: absolute;
-    width: 9px;
-    height: 5px;
+    width: 12px;
+    height: 6px;
     background: transparent;
-    top: 5px;
-    left: 4px;
-    border: 3px solid #fcfff4;
+    top: 6px;
+    left: 5px;
+    border: 4px solid #fcfff4;
     border-top: none;
     border-right: none;
 
@@ -194,6 +165,64 @@ ul {
   }
 }
 
+.prefs_with-images {
+
+  fieldset {
+    margin-left: -22px;
+  }
+
+  legend {
+    margin-left: 22px;
+  }
+
+  li {
+    width: 200px;
+    height: 160px;
+    float: left;
+    margin: 0.5em 22px 1.0em;
+  }
+
+  .prefs-image {
+    padding-bottom: 0.5em;
+  }
+
+  .prefs-info {
+    width: 150px;
+    float: left;
+    font-weight: bold;
+
+    small {
+      font-weight: 500;
+      font-size: 0.929em;
+    }
+  }
+}
+
+.prefs_without-images {
+
+  li {
+    width: 45%;
+    height: 60px;
+    float: left;
+    margin-right: 5%;
+    margin-top: 0.5em
+  }
+
+  .prefs-image {
+    display: none;
+  }
+
+  .prefs-info {
+    width: 80%;
+    float: left;
+    font-weight: bold;
+
+    small {
+      font-weight: 500;
+      font-size: 0.929em;
+    }
+  }
+}
 
 
 
