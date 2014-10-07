@@ -57,7 +57,8 @@ ul {
   padding: 0; }
 
 .actions {
-  padding: 10px 0; }
+  padding: 10px 0;
+  overflow: hidden; }
 
 .alternative-action {
   float: left;
