@@ -68,12 +68,12 @@ ul {
   padding: 10px 0;
   overflow: hidden; }
 
-.alternative-action {
+.alternative-action, cta-link {
   float: left;
   width: 50%;
   font-weight: bold;
   font-size: 1.2em; }
-  .alternative-action a {
+  .alternative-action a, cta-link a {
     color: #e21485; }
 
 .submit-button {
