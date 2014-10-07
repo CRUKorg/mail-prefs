@@ -1,10 +1,11 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Main SASS file
 ---
 
 body {
   font: normal 14px/1.2 "Arial", "Helvetica", sans-serif;
   padding: 0 10px;
+  background-color: #eee;
 }
 
 h1 {
