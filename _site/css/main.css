@@ -30,10 +30,10 @@ footer {
     font-weight: 300;
     text-align: center; }
 
-main {
+main, aside {
   padding: 20px 0;
   overflow: hidden; }
-  main .wrapper {
+  main .wrapper, aside .wrapper {
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 10px 20px; }
