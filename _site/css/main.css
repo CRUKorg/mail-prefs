@@ -8,7 +8,8 @@ h1 {
   font-size: 2.0em; }
 
 h2, legend {
-  font-size: 1.2em;
+  margin: 1.0em 0;
+  font-size: 1.5em;
   color: #2e008e; }
 
 header {
