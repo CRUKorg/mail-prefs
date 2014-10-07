@@ -45,7 +45,8 @@ aside .panel {
 
 .wrapper {
   max-width: 960px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow: hidden; }
 
 fieldset {
   padding: 0;
