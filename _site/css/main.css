@@ -36,6 +36,7 @@ main, aside {
   main .wrapper, aside .wrapper {
     background-color: #fff;
     border: 1px solid #ccc;
+    border-radius: 3px;
     padding: 10px 20px; }
 
 aside .panel {
