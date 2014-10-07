@@ -224,5 +224,40 @@ ul {
   }
 }
 
+.addthis_button_facebook,
+.addthis_button_google_plusone_share,
+.addthis_button_twitter,
+.addthis_button_compact {
+  padding: 0 2px;
+  float: left;
+  cursor: pointer;
+
+  & > span {
+    width: 124px;
+    height: 48px;
+    border-radius: 3px;
+    margin-bottom: 4px;
+    display: block;
+
+    & > span {
+      display: none;
+    }
+  }
+}
+
+.addthis_button_facebook > span {
+  background: url(http://cancerresearchuk.org/sites/all/themes/custom/cruk/images/share-facebook.png) no-repeat;
+}
+.addthis_button_google_plusone_share > span {
+  background: url(http://cancerresearchuk.org/sites/all/themes/custom/cruk/images/share-google-plus.png) no-repeat;
+
+}
+.addthis_button_twitter > span {
+  background: url(http://cancerresearchuk.org/sites/all/themes/custom/cruk/images/share-twitter.png) no-repeat;
+}
+.addthis_button_compact > span {
+  background: url(http://cancerresearchuk.org/sites/all/themes/custom/cruk/images/share-other.png) no-repeat;
+}
+
 
 
