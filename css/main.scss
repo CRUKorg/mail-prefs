@@ -91,7 +91,7 @@ ul {
   overflow: hidden;
 }
 
-.alternative-action, .cta-link {
+.alternative-action {
   float: left;
   width: 50%;
   font-weight: bold;
@@ -286,6 +286,15 @@ ul {
 .addthis_button_compact > span {
   background: url(http://cancerresearchuk.org/sites/all/themes/custom/cruk/images/share-other.png) no-repeat;
 }
+
+.cta-link {
+  font-weight: bold;
+
+  a {
+    color: #e21485;
+  }
+}
+
 
 
 
