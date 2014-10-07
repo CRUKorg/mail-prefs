@@ -38,6 +38,11 @@ main, aside {
     border: 1px solid #ccc;
     padding: 10px 20px; }
 
+aside panel {
+  width: 32%;
+  float: left;
+  margin: 0 1%; }
+
 .wrapper {
   max-width: 960px;
   margin: 0 auto; }
