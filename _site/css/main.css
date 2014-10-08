@@ -47,7 +47,7 @@ aside .panel {
   width: 30%;
   float: left;
   margin: 0 1%; }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 480px) {
     aside .panel {
       width: 100%;
       float: none;
