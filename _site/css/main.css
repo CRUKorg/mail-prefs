@@ -47,6 +47,11 @@ aside .panel {
   width: 30%;
   float: left;
   margin: 0 1%; }
+  @media screen and (max-width: 640px) {
+    aside .panel {
+      width: 100%;
+      float: none;
+      margin: 0; } }
 
 .wrapper {
   max-width: 960px;
