@@ -197,10 +197,10 @@ ul {
   .prefs-info {
     width: 80%;
     float: left;
-    font-weight: bold; }
-    .prefs-info small {
-      font-weight: 500;
-      font-size: 0.929em; } }
+    font-weight: bold;
+    margin-top: 0.5em small;
+      margin-top-font-weight: 500;
+      margin-top-font-size: 0.929em; } }
 @media screen and (min-width: 641px) and (max-width: 800px) {
   li {
     width: 45%;
