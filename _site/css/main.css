@@ -39,6 +39,9 @@ main, aside {
     border: 1px solid #ccc;
     border-radius: 3px;
     padding: 10px 20px; }
+    @media screen and (max-width: 640px) {
+      main .wrapper, aside .wrapper {
+        padding: 10px; } }
 
 aside .panel {
   width: 30%;
