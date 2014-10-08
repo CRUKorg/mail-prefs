@@ -46,6 +46,7 @@ aside .panel {
   margin: 0 1%; }
 
 .wrapper {
+  width: 90%;
   max-width: 960px;
   margin: 0 auto;
   overflow: hidden; }
