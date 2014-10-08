@@ -184,24 +184,22 @@ ul {
   .cta-link a {
     color: #e21485; }
 
-li {
-  width: 100%;
-  height: auto;
-  float: none;
-  margin-right: 0;
-  margin-top: 0.5em; }
+@media screen and (max-width: 640px) {
+  li {
+    width: 100%;
+    clear: both;
+    margin-top: 0.5em; }
 
-.prefs-image {
-  display: none; }
+  .prefs-image {
+    display: none; }
 
-.prefs-info {
-  width: 80%;
-  float: left;
-  font-weight: bold; }
-  .prefs-info small {
-    font-weight: 500;
-    font-size: 0.929em; }
-
+  .prefs-info {
+    width: 80%;
+    float: left;
+    font-weight: bold; }
+    .prefs-info small {
+      font-weight: 500;
+      font-size: 0.929em; } }
 @media screen and (min-width: 641px) and (max-width: 800px) {
   li {
     width: 45%;
@@ -234,7 +232,6 @@ li {
     margin: 0.5em 22px 1.0em; }
 
   .prefs-image {
-    display: block;
     padding-bottom: 0.5em; }
 
   .prefs-info {
