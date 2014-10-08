@@ -197,7 +197,7 @@ ul {
     width: 100%;
     overflow: hidden;
     clear: both; }
-    li:nth-child(2n+1) {
+    li:nth-child(2n) {
       background-color: #f7f7f7;
       border-radius: 3px; }
 

@@ -252,7 +252,7 @@ ul {
     overflow: hidden;
     clear: both;
 
-    &:nth-child(2n+1) {
+    &:nth-child(2n) {
       background-color: #f7f7f7;
       border-radius: 3px;
     }
