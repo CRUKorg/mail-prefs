@@ -241,9 +241,9 @@ ul {
 
   li {
     width: 200px;
-    height: 160px;
+    height: 180px;
     float: left;
-    margin: 0.5em 22px 2.0em; }
+    margin: 0.5em 22px 1.0em; }
 
   .prefs-image {
     padding-bottom: 0.5em; }
