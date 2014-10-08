@@ -39,7 +39,7 @@ main, aside {
     border: 1px solid #ccc;
     border-radius: 3px;
     padding: 10px 20px; }
-    @media screen and (max-width: 640px) {
+    @media screen and (max-width: 480px) {
       main .wrapper, aside .wrapper {
         padding: 10px; } }
 
@@ -192,7 +192,7 @@ ul {
   .cta-link a {
     color: #e21485; }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 480px) {
   li {
     width: 100%;
     overflow: hidden;
@@ -214,7 +214,7 @@ ul {
 
   .fancy-checkbox {
     margin: 0.5em; } }
-@media screen and (min-width: 641px) and (max-width: 800px) {
+@media screen and (min-width: 481px) and (max-width: 800px) {
   li {
     width: 45%;
     height: 60px;
