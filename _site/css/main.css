@@ -198,7 +198,8 @@ ul {
     overflow: hidden;
     clear: both; }
     li:nth-child(2n+1) {
-      background-color: #f7f7f7; }
+      background-color: #f7f7f7;
+      border-radius: 3px; }
 
   .prefs-image {
     display: none; }
