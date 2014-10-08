@@ -234,6 +234,7 @@ li {
     margin: 0.5em 22px 1.0em; }
 
   .prefs-image {
+    display: block;
     padding-bottom: 0.5em; }
 
   .prefs-info {
