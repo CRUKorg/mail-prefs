@@ -28,6 +28,7 @@ header {
 footer {
   clear: both;
   padding: 20px 0;
+  position: relative;
 
   address{
     width: 80%;
@@ -41,8 +42,10 @@ footer {
 
   .frsb-logo {
     width: 71px;
-    float: right;
-    padding-left: 4px;
+    padding: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
 
     @media screen and (max-width: 800px) {
       display: none;
