@@ -28,7 +28,6 @@ header {
 footer {
   clear: both;
   padding: 20px 0;
-  position: relative;
 
   address{
     width: 75%;
@@ -88,6 +87,7 @@ aside {
   max-width: 960px;
   margin: 0 auto;
   overflow: hidden;
+  position: relative;
 }
 
 fieldset {
