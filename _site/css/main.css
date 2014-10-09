@@ -22,7 +22,7 @@ footer {
   padding: 20px 0; }
   footer address {
     width: 80%;
-    height: 100px;
+    min-height: 80px;
     display: block;
     margin: 0 auto;
     font-size: 0.875em;
