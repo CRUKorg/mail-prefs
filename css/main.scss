@@ -246,6 +246,16 @@ ul {
   }
 }
 
+.frsb-logo {
+  width: 71px;
+  float: right;
+  padding-left: 4px;
+
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 480px) {
   li {
     width: 100%;

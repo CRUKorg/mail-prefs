@@ -192,6 +192,14 @@ ul {
   .cta-link a {
     color: #e21485; }
 
+.frsb-logo {
+  width: 71px;
+  float: right;
+  padding-left: 4px; }
+  @media screen and (max-width: 800px) {
+    .frsb-logo {
+      display: none; } }
+
 @media screen and (max-width: 480px) {
   li {
     width: 100%;
