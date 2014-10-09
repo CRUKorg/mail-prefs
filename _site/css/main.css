@@ -22,7 +22,7 @@ footer {
   padding: 20px 0;
   position: relative; }
   footer address {
-    width: 80%;
+    width: 75%;
     display: block;
     margin: 0 auto;
     font-size: 0.875em;
@@ -31,7 +31,7 @@ footer {
     text-align: center; }
   footer .frsb-logo {
     width: 71px;
-    padding: 4px;
+    padding: 5px 20px 0 5px;
     position: absolute;
     top: 0;
     right: 0; }
