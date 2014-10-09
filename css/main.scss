@@ -27,9 +27,7 @@ header {
 
 footer {
   clear: both;
-  background-color: #f7f7f7;
   padding: 20px 0;
-  margin-top: 50px;
 
   address{
     width: 80%;
@@ -39,6 +37,16 @@ footer {
     font-style: normal;
     font-weight: 300;
     text-align: center;
+  }
+
+  .frsb-logo {
+    width: 71px;
+    float: right;
+    padding-left: 4px;
+
+    @media screen and (max-width: 800px) {
+      display: none;
+    }
   }
 }
 
@@ -243,16 +251,6 @@ ul {
 
   a {
     color: #e21485;
-  }
-}
-
-.frsb-logo {
-  width: 71px;
-  float: right;
-  padding-left: 4px;
-
-  @media screen and (max-width: 800px) {
-    display: none;
   }
 }
 

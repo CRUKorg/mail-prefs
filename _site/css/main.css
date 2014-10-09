@@ -19,9 +19,7 @@ header {
 
 footer {
   clear: both;
-  background-color: #f7f7f7;
-  padding: 20px 0;
-  margin-top: 50px; }
+  padding: 20px 0; }
   footer address {
     width: 80%;
     display: block;
@@ -30,6 +28,13 @@ footer {
     font-style: normal;
     font-weight: 300;
     text-align: center; }
+  footer .frsb-logo {
+    width: 71px;
+    float: right;
+    padding-left: 4px; }
+    @media screen and (max-width: 800px) {
+      footer .frsb-logo {
+        display: none; } }
 
 main, aside {
   padding: 20px 10px;
@@ -191,14 +196,6 @@ ul {
   font-weight: bold; }
   .cta-link a {
     color: #e21485; }
-
-.frsb-logo {
-  width: 71px;
-  float: right;
-  padding-left: 4px; }
-  @media screen and (max-width: 800px) {
-    .frsb-logo {
-      display: none; } }
 
 @media screen and (max-width: 480px) {
   li {
