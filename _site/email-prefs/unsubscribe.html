@@ -34,7 +34,7 @@ footer {
   padding: 20px 0; }
   footer address {
     width: 80%;
-    min-height: 80px;
+    height: 100px;
     display: block;
     margin: 0 auto;
     font-size: 0.875em;
@@ -283,15 +283,6 @@ ul {
 
 <body>
 
-<!-- Google Tag Manager -->
-   <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W3ZV"
-   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-   '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-   })(window,document,'script','dataLayer','GTM-W3ZV'); ?></script>
-   <!-- End Google Tag Manager -->
-
 <header class="site-header">
   <div class="wrapper">
     <a class="site-title" href="/mail-prefs"><img src="images/logo.png" alt="Cancer Research UK" width="120px"/></a>
@@ -301,9 +292,16 @@ ul {
 
 <main class="unsubscribe">
   <div class="wrapper">
-    <h1>Thank you</h1>
-    <p>Thank you for updating your preferences. It should take no more than a few days to update your records.</p>
-    <p>These changes will not affect non marketing communications from us, for example confirmation of donations, registrations or order confirmations.</p>
+    <h1>You have been unsubscribed</h1>
+    <p><p>You will no longer receive email communication from Cancer Research UK. Thank you for support the fight against cancer and you are always welcome to re-subscribe.</p>
+
+    <form id="comms-prefs" method="get" action="email-prefs.html">
+      <div class="actions">
+        <div class="submit-button" style="width: 100%; float: none; text-align: left">
+          <input type="submit" id=""comms-prefs-submit" value="Re-subscribe"/>
+        </div>
+      </div>
+    </form>
 
     <div class="social-buttons">
       <h2>Go social</h2>
