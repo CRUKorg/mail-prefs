@@ -34,7 +34,7 @@ footer {
   padding: 20px 0; }
   footer address {
     width: 80%;
-    height: 100px;
+    min-height: 80px;
     display: block;
     margin: 0 auto;
     font-size: 0.875em;
@@ -283,6 +283,15 @@ ul {
 
 <body>
 
+<!-- Google Tag Manager -->
+   <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W3ZV"
+   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+   '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+   })(window,document,'script','dataLayer','GTM-W3ZV'); ?></script>
+   <!-- End Google Tag Manager -->
+
 <header class="site-header">
   <div class="wrapper">
     <a class="site-title" href="/mail-prefs"><img src="images/logo.png" alt="Cancer Research UK" width="120px"/></a>
@@ -290,156 +299,22 @@ ul {
 </header>
 
 
-<main class="prefs_with-images">
+<main class="unsubscribe">
   <div class="wrapper">
-    <h1>Email preferences</h1>
-    <p>You are part of our fight against cancer and so to keep you involved we want to ensure we only send you emails that are relevant to you. Just tick the categories that you're interested in and we'll send you everything relevant and nothing else.</p>
+    <h1>Thank you</h1>
+    <p>Thank you for updating your preferences. It should take no more than a few days to update your records.</p>
+    <p>These changes will not affect non marketing communications from us, for example confirmation of donations, registrations or order confirmations.</p>
 
-    <form id="comms-prefs" method="get" action="confirm-prefs.html">
-
-      <fieldset>
-        <legend>Science, Research and Cancer Information</legend>
-        <ul>
-          <li>
-            <div class="prefs-image"><img src="images/u22.png" alt="U222 image"/></div>
-            <div class="prefs-info"><small>Information about Cancer, prevention and early diagnosis</small></div>
-            <div class="fancy-checkbox">
-              <input type="checkbox" value="yes" checked id="information" name="information"/>
-              <label for="information"></label>
-            </div>
-          </li>
-          <li>
-            <div class="prefs-image"><img src="images/u37.png" alt="U37 image"/></div>
-            <div class="prefs-info">Breaking news<br/>
-            <small>Science, Health & Progress</small></div>
-            <div class="fancy-checkbox">
-              <input type="checkbox" value="yes" checked id="news" name="news"/>
-              <label for="news"></label>
-            </div>
-          </li>
-        </ul>
-      </fieldset>
-
-      <fieldset>
-        <legend>Support us</legend>
-        <ul>
-          <li>
-            <div class="prefs-image"><img src="images/u52.png" alt="U52 image"/></div>
-            <div class="prefs-info">Donating<br/>
-            <small>Whatever you can give makes a huge difference</small></div>
-            <div class="fancy-checkbox">
-              <input type="checkbox" value="yes" checked id="donating" name="donating"/>
-              <label for="donating"></label>
-            </div>
-          </li>
-          <li>
-            <div class="prefs-image"><img src="images/u67.png" alt="U67 image"/></div>
-            <div class="prefs-info">Shopping to beat cancer<br/>
-            <small>Great gift ideas to support the fight</small></div>
-            <div class="fancy-checkbox">
-              <input type="checkbox" value="yes" checked id="shopping" name="shopping"/>
-              <label for="shopping"></label>
-            </div>
-          </li>
-          <li>
-            <div class="prefs-image"><img src="images/u82.png" alt="U82 image"/></div>
-            <div class="prefs-info">Leaving a legacy<br/>
-            <small>Help write an end to cancer</small></div>
-            <div class="fancy-checkbox">
-              <input type="checkbox" value="yes" checked id="legacies" name="legacies"/>
-              <label for="legacies"></label>
-            </div>
-          </li>
-          <li>
-            <div class="prefs-image"><img src="images/u97.png" alt="U97 image"/></div>
-            <div class="prefs-info">Campaigning to beat cancer<br/>
-            <small>Put cancer on the political agenda</small></div>
-            <div class="fancy-checkbox">
-              <input type="checkbox" value="yes" checked id="campaigning" name="campaigning"/>
-              <label for="campaigning"></label>
-            </div>
-          </li>
-          <li>
-            <div class="prefs-image"><img src="images/u112.png" alt="U112 image"/></div>
-            <div class="prefs-info">Volunteering<br/>
-            <small>Donate your time and skills</small></div>
-            <div class="fancy-checkbox">
-              <input type="checkbox" value="yes" checked id="volunteering" name="volunteering"/>
-              <label for="volunteering"></label>
-            </div>
-          </li>
-          <li>
-            <div class="prefs-image"><img src="images/u127.png" alt="U127 image"/></div>
-            <div class="prefs-info">Race for Life<br/>
-            <small>Over 230 events across the UK</small></div>
-            <div class="fancy-checkbox">
-              <input type="checkbox" value="yes" checked id="race-for-life" name="race-for-life"/>
-              <label for="race-for-life"></label>
-            </div>
-          </li>
-          <li>
-            <div class="prefs-image"><img src="images/u142.png" alt="U142 image"/></div>
-            <div class="prefs-info">Other Runs to beat Cancer<br/>
-            <small>10k, marathons, triathlons</small></div>
-            <div class="fancy-checkbox">
-              <input type="checkbox" value="yes" checked id="other-runs" name="other-runs"/>
-              <label for="other-runs"></label>
-            </div>
-          </li>
-          <li>
-            <div class="prefs-image"><img src="images/u157.png" alt="U157 image"/></div>
-            <div class="prefs-info">Walk to beat Cancer<br/>
-            <small>Shine Night walk, Thames Challenge</small></div>
-            <div class="fancy-checkbox">
-              <input type="checkbox" value="yes" checked id="walks" name="walks"/>
-              <label for="walks"></label>
-            </div>
-          </li>
-          <li>
-            <div class="prefs-image"><img src="images/u172.png" alt="U172 image"/></div>
-            <div class="prefs-info">Other sports to beat Cancer<br/>
-            <small>Triathlons, cycles, swims</small></div>
-            <div class="fancy-checkbox">
-              <input type="checkbox" value="yes" checked id="other-sports" name="other-sports"/>
-              <label for="other-sports"></label>
-            </div>
-          </li>
-          <li>
-            <div class="prefs-image"><img src="images/u187.png" alt="U187 image"/></div>
-            <div class="prefs-info">Challenges to beat Cancer<br/>
-            <small>Dryathlon, BBQ</small></div>
-            <div class="fancy-checkbox">
-              <input type="checkbox" value="yes" checked id="challenges" name="challenges"/>
-              <label for="challenges"></label>
-            </div>
-          </li>
-          <li>
-            <div class="prefs-image"><img src="images/u202.png" alt="U202 image"/></div>
-            <div class="prefs-info">Do your own fundraising<br/>
-            <small>Ideas to raise money your way</small></div>
-            <div class="fancy-checkbox">
-              <input type="checkbox" value="yes" checked id="fundraising" name="fundraising"/>
-              <label for="fundraising"></label>
-            </div>
-          </li>
-          <li>
-            <div class="prefs-image"><img style="border: 1px solid #eee; border-radius: 10px;" src="images/merchandise-100.jpg" alt="U202 image"/></div>
-            <div class="prefs-info">Stand up to Cancer<br/>
-            <small>Two months of epic fundraising up and down the country with Channel 4</small></div>
-            <div class="fancy-checkbox">
-              <input type="checkbox" value="yes" checked id="su2c" name="su2c"/>
-              <label for="su2c"></label>
-            </div>
-          </li>
-        </ul>
-      </fieldset>
-
-      <div class="actions">
-        <div class="alternative-action"><a href="unsubscribe.html">Unsubscribe from all</a></div>
-        <div class="submit-button"><input type="submit" id=""comms-prefs-submit" value="Submit"/></div>
+    <div class="social-buttons">
+      <h2>Go social</h2>
+      <p>If you want to keep your email box clear, why not follow us instead.</p>
+      <div class="addthis_toolbox addthis_default_style  ">
+        <a target="_blank" href="http://www.addthis.com/bookmark.php?v=250" class="addthis_button_facebook at300b" title="Facebook"><span class="at16nc at300bs at15nc at15t_facebook at16t_facebook"><span class="at_a11y">Share on facebook</span></span></a>
+        <a target="_blank" href="http://www.addthis.com/bookmark.php?v=300&amp;winname=addthis&amp;pub=CRUK&amp;source=tbx-300&amp;lng=en-us&amp;s=google_plusone_share&amp;url=http%3A%2F%2Fwww.cancerresearchuk.org%2Fsupport-us&amp;title=Support%20us%20%7C%20Cancer%20Research%20UK&amp;ate=AT-CRUK/-/-/5433e92cadd0ef55/2&amp;frommenu=1&amp;uid=5433e92c10b68120&amp;ct=1&amp;ui_cobrand=Cancer%20Research%20UK&amp;tt=0&amp;captcha_provider=nucaptcha" class="addthis_button_google_plusone_share at300b" target="_blank" title="Google+"><span class="at16nc at300bs at15nc at15t_google_plusone_share at16t_google_plusone_share"><span class="at_a11y">Share on google_plusone_share</span></span></a>
+        <a target="_blank" href="http://www.addthis.com/bookmark.php?v=250" class="addthis_button_twitter at300b" title="Tweet"><span class="at16nc at300bs at15nc at15t_twitter at16t_twitter"><span class="at_a11y">Share on twitter</span></span></a>
+        <a target="_blank" href="http://www.addthis.com/bookmark.php?v=250" class="addthis_button_compact at300m"><span class="at16nc at300bs at15nc at15t_compact at16t_compact"><span class="at_a11y">More Sharing Services</span></span></a>
       </div>
-
-    </form>
+    </div>
   </div>
 </main>
 
